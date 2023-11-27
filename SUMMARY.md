@@ -2,9 +2,11 @@
 
 * [containers](README.md)
   * [Grafana](containers/grafana/README.md)
-    * [Page 10](containers/grafana/page-10.md)
+    * [CVE-2021-43798](containers/grafana/cve-2021-43798.md)
   * [Apache HTTP Server](containers/apache-http-server/README.md)
-    * [Page 11](containers/apache-http-server/page-11.md)
+    * [CVE-2021-40438](containers/apache-http-server/cve-2021-40438.md)
+    * [CVE-2021-41773](containers/apache-http-server/cve-2021-41773.md)
+    * [CVE-2021-42013](containers/apache-http-server/cve-2021-42013.md)
   * [ImageMagick](containers/imagemagick/README.md)
     * [Page 12](containers/imagemagick/page-12.md)
   * [Jboss](containers/jboss/README.md)
