@@ -8,7 +8,7 @@
     * [CVE-2021-41773](containers/apache-http-server/cve-2021-41773.md)
     * [CVE-2021-42013](containers/apache-http-server/cve-2021-42013.md)
   * [ImageMagick](containers/imagemagick/README.md)
-    * [imagetragick](containers/imagemagick/imagetragick.md)
+    * [Imagemagick Command Injection](containers/imagemagick/imagetragick.md)
     * [CVE-2022-44268](containers/imagemagick/cve-2022-44268.md)
   * [Jboss](containers/jboss/README.md)
     * [CVE-2017-7504](containers/jboss/cve-2017-7504.md)
