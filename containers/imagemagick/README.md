@@ -1,2 +1,3 @@
-# Page 3
+# ImageMagick
 
+[ImageTragick](imagetragick.md)
