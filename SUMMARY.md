@@ -14,7 +14,7 @@
     * [CVE-2017-7504](containers/jboss/cve-2017-7504.md)
   * [Jenkins](containers/jenkins/README.md)
     * [CVE-2017-1000353](containers/jenkins/cve-2017-1000353.md)
-  * [Apache Kafka](containers/apache-kafka/README.md)
+  * [Kafka](containers/apache-kafka/README.md)
     * [CVE-2023-25194](containers/apache-kafka/cve-2023-25194.md)
   * [Kibana](containers/kibana/README.md)
     * [CVE-2018-17246](containers/kibana/cve-2018-17246.md)
