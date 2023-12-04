@@ -1,2 +1,3 @@
-# Page 2
+# OpenSMTPD
 
+[CVE-2020-7247](cve-2020-7247.md)
