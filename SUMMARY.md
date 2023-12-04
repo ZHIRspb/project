@@ -19,8 +19,6 @@
   * [Kibana](containers/kibana/README.md)
     * [CVE-2018-17246](containers/kibana/cve-2018-17246.md)
     * [CVE-2019-7609](containers/kibana/cve-2019-7609.md)
-  * [Apache Log4j](containers/apache-log4j/README.md)
-    * [CVE-2021-44228](containers/apache-log4j/cve-2021-44228.md)
   * [Metabase](containers/metabase/README.md)
     * [CVE-2021-41277](containers/metabase/cve-2021-41277.md)
   * [Mongo-express](containers/mongo-express/README.md)
