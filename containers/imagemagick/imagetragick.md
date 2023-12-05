@@ -14,7 +14,7 @@ docker compose up -d
 
 После запуска сервера по адресу `http://ваш-ip:8080/` будет доступна страница с возможностью загрузки файлов
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для реализации данной уязвимости нужно отправить POST-запрос с полезной нагрузкой:
 
