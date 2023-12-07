@@ -39,3 +39,4 @@
     * [CVE-2020-13942](containers/apache-unomi/cve-2020-13942.md)
   * [WebLogic](containers/weblogic/README.md)
     * [CVE-2020-14882/3](containers/weblogic/cve-2020-14882.md)
+* [.gitingnore](.gitingnore.md)
