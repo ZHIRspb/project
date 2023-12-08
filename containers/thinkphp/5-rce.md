@@ -32,4 +32,4 @@ http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call
 
 В Wazuh (https://ваш-ip/app/wazuh) мы можем увидеть соответствующие алерты от IDS Suricata об эксплуатации данной уязвимости.
 
-<figure><img src="../../.gitbook/assets/thinkphp-5-rce(4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/thinkphp-5-rce(4) (2).png" alt=""><figcaption></figcaption></figure>
