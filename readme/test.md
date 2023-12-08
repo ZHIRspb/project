@@ -1,6 +1,6 @@
-# test
+# README
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/readme.png" alt=""><figcaption></figcaption></figure>
 
 Данный репозиторий содержит в себе инструкции по эксплуатации уязвимостей различных сервисов.
 
