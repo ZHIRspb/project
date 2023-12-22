@@ -4,7 +4,7 @@
 
 Данный репозиторий содержит в себе инструкции по эксплуатации уязвимостей различных сервисов.
 
-К репозиторию прилагается готовый образ диска с полным репозиторием [vulhub](https://github.com/vulhub/vulhub?ysclid=lpwf56e544559765125).
+К репозиторию прилагается готовый [образ диска](https://disk.yandex.ru/d/iMNWZ4ETrjLUEg) с полным репозиторием [vulhub](https://github.com/vulhub/vulhub?ysclid=lpwf56e544559765125).
 
 В качестве SIEM-системы используется open-sourse система - Wazuh, подробнее о системе можно узнать [здесь](https://wazuh.com), дополнительно к ней настроена IDS  [Suricata](https://suricata.io/).
 
