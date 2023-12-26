@@ -1,2 +1,3 @@
 # Apache APISIX
 
+[CVE-2021-45232](cve-2021-45232.md)
