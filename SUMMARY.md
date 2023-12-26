@@ -40,3 +40,5 @@
   * [WebLogic](containers/weblogic/README.md)
     * [CVE-2020-14882/3](containers/weblogic/cve-2020-14882.md)
   * [test](readme/test.md)
+  * [Apache APISIX](readme/apache-apisix/README.md)
+    * [CVE-2021-45232](readme/apache-apisix/cve-2021-45232.md)
