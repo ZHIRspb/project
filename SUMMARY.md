@@ -51,4 +51,5 @@
   * [goahead](readme/goahead/README.md)
     * [CVE-2017-17562](readme/goahead/cve-2017-17562.md)
     * [CVE-2021-42342](readme/goahead/cve-2021-42342.md)
-  * [Page 1](readme/page-1.md)
+  * [Joomla](readme/joomla/README.md)
+    * [CVE-2017-8917](readme/joomla/cve-2017-8917.md)
