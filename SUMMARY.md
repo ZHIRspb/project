@@ -53,3 +53,5 @@
     * [CVE-2021-42342](readme/goahead/cve-2021-42342.md)
   * [Joomla](readme/joomla/README.md)
     * [CVE-2017-8917](readme/joomla/cve-2017-8917.md)
+  * [log4j](readme/log4j/README.md)
+    * [CVE-2021-44228](readme/log4j/cve-2021-44228.md)
