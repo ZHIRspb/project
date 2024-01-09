@@ -46,3 +46,5 @@
   * [CVE-2017-12636](readme/cve-2017-12636.md)
   * [couchdb](readme/couchdb/README.md)
     * [CVE-2022-24706](readme/couchdb/cve-2022-24706.md)
+  * [flink](readme/flink/README.md)
+    * [CVE-2020-17518](readme/flink/cve-2020-17518.md)
