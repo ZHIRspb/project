@@ -50,3 +50,4 @@
     * [CVE-2020-17518](readme/flink/cve-2020-17518.md)
   * [goahead](readme/goahead/README.md)
     * [CVE-2017-17562](readme/goahead/cve-2017-17562.md)
+    * [CVE-2021-42342](readme/goahead/cve-2021-42342.md)
