@@ -44,3 +44,5 @@
     * [CVE-2021-45232](readme/apache-apisix/cve-2021-45232.md)
   * [CVE-2017-12635](readme/cve-2017-12635.md)
   * [CVE-2017-12636](readme/cve-2017-12636.md)
+  * [couchdb](readme/couchdb/README.md)
+    * [CVE-2022-24706](readme/couchdb/cve-2022-24706.md)
