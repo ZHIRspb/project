@@ -12,6 +12,6 @@
 
 Данный репозиторий имеет неполный список инструкций, в дальнейшем он будет пополняться.
 
-Пароли для доступа к Wazuh и Ubuntu [здесь](https://github.com/ZHIRspb/project/accesses.txt)
+Пароли для доступа к Wazuh и Ubuntu [здесь](https://github.com/ZHIRspb/project/blob/main/accesses.txt)
 
 Приятного хакинга!
