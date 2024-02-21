@@ -1,0 +1,30 @@
+ubuntu:
+user:SummerCamp1
+
+# Admin user for the web user interface and Wazuh indexer. Use this user to log in to Wazuh dashboard
+  indexer_username: 'admin'
+  indexer_password: 'Aa.uU5hNVsiqIFtjH8W1bJA3FsO?H3ZC'
+
+# Wazuh dashboard user for establishing the connection with Wazuh indexer
+  indexer_username: 'kibanaserver'
+  indexer_password: 'uG*?G?0ty**Hu9fmMe+26lr3cDA12Y9G'
+
+# Regular Dashboard user, only has read permissions to all indices and all permissions on the .kibana index
+  indexer_username: 'kibanaro'
+  indexer_password: 'L.tz1kdDnkVvfTv10A3TVBhfST2iCi5q'
+
+# Filebeat user for CRUD operations on Wazuh indices
+  indexer_username: 'logstash'
+  indexer_password: 'I2cuuw5n2yf7PsE1i6y?N.xUpF6TY.4V'
+
+# User with READ access to all indices
+  indexer_username: 'readall'
+  indexer_password: 'AOhoPFUDT27VyT6+S7NTx+3UDc7c*kKs'
+
+# User with permissions to perform snapshot and restore operations
+  indexer_username: 'snapshotrestore'
+  indexer_password: 'ddIBZlVRDBNi+54FmgE?31ekFZ6af3Qe'
+
+# Password for wazuh API user
+  api_username: 'wazuh'
+  api_password: 'sNdd.czID3r?gZiHqhfe9jvN.i7MTNi9'
