@@ -15,4 +15,5 @@
 Пароли для доступа к Wazuh и Ubuntu [здесь](https://github.com/ZHIRspb/project/blob/main/accesses.txt)
 
 P.S Если не работает [сеть](https://github.com/ZHIRspb/project/blob/main/network.txt)
+
 Приятного хакинга!
