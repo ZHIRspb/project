@@ -12,7 +12,7 @@
 
 Данный репозиторий имеет неполный список инструкций, в дальнейшем он будет пополняться.
 
-Пароли для доступа к Wazuh и Ubuntu [здесь](https://github.com/ZHIRspb/project/blob/main/accesses.txt)
+Пароли для доступа к Wazuh и к машине [здесь](https://github.com/ZHIRspb/project/blob/main/accesses.txt)
 
 P.S Если не работает сеть, измените название интерфейса в файле `/etc/netplan/00-installer-config.yaml` на действительный и перезапустите машину
 
